@@ -15,7 +15,7 @@
    id="svg3230"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Nouveau document 2">
+   sodipodi:docname="fusee_but-du-jeu.svg">
   <defs
      id="defs3232" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="75.299011"
-     inkscape:cy="405.16907"
+     inkscape:zoom="2.8"
+     inkscape:cx="255.84406"
+     inkscape:cy="54.048602"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -191,18 +191,18 @@
        xml:space="preserve"
        id="flowRoot3959-4"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       transform="translate(-3.2890069,430.57574)"><flowRegion
+       transform="translate(-3.2890069,434.57574)"><flowRegion
          id="flowRegion3961-9"><rect
            id="rect3963-7"
-           width="177.52654"
-           height="47.231888"
+           width="221.81227"
+           height="46.87476"
            x="330.62286"
            y="365.42545" /></flowRegion><flowPara
-         id="flowPara3965-5">Quand on appuie sur la flèche,</flowPara><flowPara
-         id="flowPara4201">  on allume le moteur, et</flowPara><flowPara
-         id="flowPara4199">  la vitesse augmente</flowPara></flowRoot>    <g
+         id="flowPara4201">Quand on appuie sur la touche espace,</flowPara><flowPara
+         id="flowPara3035">  on allume le moteur,</flowPara><flowPara
+         id="flowPara4199">  et la vitesse augmente</flowPara></flowRoot>    <g
        id="g4063-2-8"
-       transform="translate(146.40167,503.95328)">
+       transform="translate(154.40167,509.95328)">
       <flowRoot
          transform="translate(-222.07636,-0.13886657)"
          style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"

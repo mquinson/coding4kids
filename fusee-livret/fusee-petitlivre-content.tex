@@ -28,7 +28,7 @@
 \includegraphics[width=\textwidth]{img/fusee_but-du-jeu.pdf}
 
 \medskip%
-Premier jeu à faire en \snap{} (ou Scratch).
+\centerline{Premier jeu à faire en \snap{} (ou Scratch)}
   
 \vfill%\smallskip
 \begin{center}
@@ -146,7 +146,7 @@ Essaye de combiner les briques suivantes:
 \newpage
 
 \section*{Ne plus perdre la fusée}
-\vspace{-.7\baselineskip}
+\vspace{-.8\baselineskip}
 
 \begin{minipage}[b]{.53\linewidth}
   \includegraphics[scale=.5]{img/fusee_init.png}
@@ -171,49 +171,21 @@ Essaye de combiner les briques suivantes:
   Quand ça démarre, on descend comme avant.
 \end{minipage}
 
-\vspace{-.7\baselineskip}
+La fusée a maintenant deux scripts.
+
+\vspace{-.8\baselineskip}
 \section*{Tomber toujours plus vite}
-\vspace{-.7\baselineskip}
+\vspace{-.8\baselineskip}
 
 \begin{minipage}{.5\linewidth}
   \includegraphics[scale=.5]{img/fusee_tomber-plus-vite.png}
 \end{minipage}
 \begin{minipage}{.5\linewidth}
-  On change la vitesse régulièrement.
+  Ce troisième script de la fusée change régulièrement la\\ vitesse.
 \end{minipage}
 
-Si la fusée se précipite au sol (ou glisse trop mollement), il faut corriger les
-délais d'attente et la vitesse.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-\section*{Toucher la base}
-\vspace{-.7\baselineskip}
-
-Pour détecter si la fusée touche la base, il faut ajouter un quatrième script.
-
-\includegraphics[scale=.5]{img/fusee_touche-fond.png}
-
-\vspace{-.7\baselineskip}
-\section*{Posée ou scratchée?}
-\vspace{-.7\baselineskip}
-Est-ce gagné ou perdu? \\
-Cela dépend de la vitesse!
-
-\begin{minipage}{.65\linewidth}
-\includegraphics[scale=.5]{img/fusee_fin-base.png}
-\end{minipage}
-\begin{minipage}{.34\linewidth}
-  (nouvelle \\
-  version du\\ 
-  4$^\text{ième}$ script)
-\end{minipage}
-
-\medskip
-\centerline{\it Comment utiliser avec le moteur?}
-
+Si la fusée glisse mollement ou se précipite au sol, corrige les délais et la
+vitesse.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -222,16 +194,45 @@ Cela dépend de la vitesse!
 \section*{Le moteur fait remonter}
 \vspace{-.7\baselineskip}
 
-Il ajoute de la vitesse vers le haut.
+Un quatrième script ajoute de la vitesse vers le haut quand on active le moteur.
 
 \includegraphics[scale=.5]{img/fusee_moteur.png}
 
 \section*{Ne touche pas le soleil!}
-\vspace{-.7\baselineskip}
-Il est brûlant!
+\vspace{-.7\baselineskip} %
+Pour détecter si la fusée se brûle dans le soleil, il faut ajouter un cinquième
+script qui bloque jusqu'au moment du contact.
 
 \includegraphics[scale=.5]{img/fusee_fin-soleil.png}
 
+%\medskip
+%\centerline{\it Comment utiliser avec le moteur?}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section*{Toucher la base}
+\vspace{-.7\baselineskip}
+
+
+\includegraphics[scale=.5]{img/fusee_touche-fond.png}
+
+\vspace{-.7\baselineskip}
+\section*{Posée ou scratchée?}
+\vspace{-.7\baselineskip}
+gagné ou perdu? 
+Ça dépend de la vitesse!
+
+\begin{minipage}{.65\linewidth}
+\includegraphics[scale=.5]{img/fusee_fin-base.png}
+\end{minipage}
+\begin{minipage}{.34\linewidth}
+  \small (nouvelle \\
+  version du\\ 
+  dernier script)
+\end{minipage}
 \section*{Ton jeu est prêt!!}
 \vspace{-.7\baselineskip}
 Amuse toi bien!
