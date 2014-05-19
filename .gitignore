@@ -1,0 +1,5 @@
+cpy.pdf
+*~
+*.aux
+*.log
+*.pdf.mk
